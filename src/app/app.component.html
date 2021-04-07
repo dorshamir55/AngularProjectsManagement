@@ -1,16 +1,13 @@
 <div class="app-container">
   <h1 class="app-title">
-    <!-- <img src="../assets/icon.png" width="17%" height="17%"> -->
     {{title}}
   </h1>
   <div class="components">
     <div class="projects-container">
-      <!-- <div class="horizental-line"></div> -->
       <app-project-list></app-project-list>
     </div>
-    <div class="vertical-line"></div>
+    <div class="vertical-line" *ngIf="currentProjectId!=-1"></div>
     <div class="tasks-container">
-      <!-- <div class="horizental-line"></div> -->
       <app-task-list></app-task-list>
     </div>
     <!-- <div class="jw-modal-background"></div> -->

@@ -1,0 +1,36 @@
+<!-- <div class="horizental-line" *ngIf="currentProjectId!=-1"></div> -->
+<!-- <div class="vertical-line" *ngIf="currentProjectId!=-1"></div> -->
+<div class="task-list-container" *ngIf="currentProjectId!=-1">
+    <h1 class="tasks-list-title">Tasks List</h1>
+    <mat-nav-list>
+        <mat-list-item *ngFor = "let task of tasks">
+            <div class="inline-block">
+                <input class="check-box" [checked]="task.checked" type="checkbox" id="checked" name="checked" (click) = "toggleCheckTask(task)">
+            </div>
+            <div class="inline-block">{{ task.content }}</div>
+            <div class="inline-block">
+                <button class="my-button edit-button" mat-mini-fab (click) = "goToUpdateTaskDialog(task.id)">
+                    <span class="material-icons">
+                        edit
+                    </span>
+                </button>
+            </div>
+            <div class="inline-block">
+                <button mat-mini-fab class="my-button" (click) = "goToDeleteTaskDialog(task.id)">
+                    <span class="material-icons">
+                        remove
+                    </span>
+                </button>
+            </div>
+        </mat-list-item>
+        <div>
+            <div>
+                <button class="my-button create-button" mat-mini-fab (click) = "goToCreateTaskDialog()">
+                    <span class="material-icons">
+                        add
+                    </span>
+                </button>
+            </div>
+        </div>
+    </mat-nav-list>
+</div>

@@ -1,0 +1,12 @@
+<div>
+    <mat-dialog-content>
+        <h2>Delete Project</h2>
+        <form>
+            <div class="form-group">
+                <label>Are you sure?</label>
+            </div>
+            <button mat-button class="btn btn-danger" (click) = "closeDialog()" style="margin-right: 10px;">No</button>
+            <button mat-raised-button class="btn btn-success" (click) = "deleteProject(currentProjectId)">Yes</button>
+        </form>
+    </mat-dialog-content>
+</div>

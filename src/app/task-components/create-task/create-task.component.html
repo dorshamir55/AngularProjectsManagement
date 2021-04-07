@@ -1,0 +1,11 @@
+<mat-dialog-content>
+    <h2>Create Task</h2>
+    <form>
+        <div class="form-group">
+            <label>Content:</label>
+            <input type="text" class="form-control" id = "name" [(ngModel)] = "task.content" name="content" maxlength="100">
+        </div>
+        <button mat-button class="btn btn-danger" (click) = "closeDialog()" style="margin-right: 10px;">Cancel</button>
+        <button mat-raised-button class="btn btn-success" (click) = "createTask()">Create task</button>
+    </form>
+</mat-dialog-content>

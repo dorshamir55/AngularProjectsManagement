@@ -1,0 +1,36 @@
+<div class="project-list-container">
+    <h1 class="projects-list-title">Projects List</h1>
+    <mat-nav-list>
+        <mat-list-item *ngFor = "let project of projects" (click) = "showTasksOfProject(project.id)" [ngStyle]="{'background-color': project.id == currentProjectId ? 'lightBlue' : 'white'}">
+        <div [ngStyle]="{'font-weight': project.id == currentProjectId ? 'bold' : 'normal'}">
+            <div class="inline-block">
+                <div class="inline-block text-center">{{ project.name }}</div>
+                <div class="inline-block">
+                    <button mat-mini-fab class="my-button edit-button" (click) = "goToUpdateProjectDialog(project.id)">
+                        <span class="material-icons">
+                            edit
+                        </span>
+                    </button>
+                </div>
+                <div class="inline-block">
+                    <button mat-mini-fab class="my-button" (click) = "goToDeleteProjectDialog(project.id)">
+                        <span class="material-icons">
+                            remove
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        </mat-list-item>
+        
+        <div>
+            <div>
+                <button class="my-button create-button" mat-mini-fab (click) = "goToCreateProjectDialog()">
+                    <span class="material-icons">
+                        add
+                    </span>
+                </button>
+            </div>
+        </div>
+    </mat-nav-list>
+</div>

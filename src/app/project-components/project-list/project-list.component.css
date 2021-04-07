@@ -1,0 +1,40 @@
+.project-list-container {
+    flex-flow: column;
+    display: flex;
+    height: max-content;
+    padding: 20px;
+}
+
+.projects-list-title{
+    font-family: "Bubblegum Sans";
+}
+
+.edit-button {
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.create-button {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.my-button {
+    border-radius: 20px;
+    transition: all 0.2s;
+    background-color: blue;
+}
+
+.my-button:hover {
+    background-color: slateblue;
+    box-shadow:0 0.8em 0.8em -0.4em slateblue;
+    transform: translateY(-0.25em);
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.mat-list-item {
+    font-family: "Bubblegum Sans";
+}

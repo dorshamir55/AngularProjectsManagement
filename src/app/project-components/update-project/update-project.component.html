@@ -1,0 +1,11 @@
+<mat-dialog-content>
+    <h2>Edit Project</h2>
+    <form>
+        <div class="form-group">
+            <label>Project name:</label>
+            <input type="text" class="form-control" id = "name" [(ngModel)] = "project.name" name="name" maxlength="20">
+        </div>
+        <button mat-button class="btn btn-danger" (click) = "closeDialog()" style="margin-right: 10px;">Cancel</button>
+        <button mat-raised-button class="btn btn-success" (click) = "updateProject()">Save Changes</button>
+    </form>
+</mat-dialog-content>

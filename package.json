@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "heroku-postbuild": "ng build --prod",
-    "start": "http-server-spa dist/angular-projects-management index.html $PORT",
+    "start": "dist/angular-projects-management index.html $PORT",
     "build": "gulp webpack",
     "test": "ng test",
     "lint": "ng lint",

@@ -3,13 +3,14 @@ import { Injectable } from '@angular/core';
 import { Task } from '../model/task';
 import { Observable } from 'rxjs';
 import { Store } from '@ngrx/store';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class TaskService {
 
-  private BASE_URL = "http://localhost:8080";
+  private BASE_URL = environment.baseUrl;
   private TASKS = "tasks";
   private PROJECTS = "projects";
 

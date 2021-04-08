@@ -3,13 +3,14 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Project } from '../model/project';
 import { Store } from '@ngrx/store';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProjectService {
   
-  private BASE_URL = "http://localhost:8080/projects";
+  private BASE_URL = environment.baseUrl+ "projects";
 
   constructor(private httpClient: HttpClient, private store: Store<any>) { }
   

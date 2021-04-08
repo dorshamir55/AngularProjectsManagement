@@ -16,7 +16,21 @@ export class AppComponent implements OnInit {
     this.globalService.getAllState().subscribe((state: any) => {
       this.currentProjectId = state.currentProjectId;
     });
+    this.setTheme('theme-dark');
   }
 
   title = 'Projects Management';
+
+  setTheme(themeName: string) {
+    localStorage.setItem('theme', themeName);
+    document.documentElement.className = themeName;
+  }
+  
+  toggleTheme() {
+    if (localStorage.getItem('theme') === 'theme-dark'){
+      this.setTheme('theme-light');
+    } else {
+      this.setTheme('theme-dark');
+    }
+  }
 }

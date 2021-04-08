@@ -1,7 +1,7 @@
 <div class="project-list-container">
     <h1 class="projects-list-title">Projects List</h1>
     <mat-nav-list>
-        <mat-list-item *ngFor = "let project of projects" (click) = "showTasksOfProject(project.id)" [ngStyle]="{'background-color': project.id == currentProjectId ? '#0C0032' : '#190061'}">
+        <mat-list-item *ngFor = "let project of projects" (click) = "showTasksOfProject(project.id)" [ngStyle]="{'background-color': project.id == currentProjectId ? 'var(--color-secondary)' : 'var(--color-background)'}">
         <div [ngStyle]="{'font-weight': project.id == currentProjectId ? 'bold' : 'normal'}">
             <div class="inline-block">
                 <div class="inline-block text-center">{{ project.name }}</div>

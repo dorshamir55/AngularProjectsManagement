@@ -7,7 +7,7 @@
 
 .projects-list-title{
     font-family: "Bubblegum Sans";
-    color: white;
+    color: var(--font-color);
 }
 
 .edit-button {
@@ -23,7 +23,7 @@
 .my-button {
     border-radius: 20px;
     transition: all 0.2s;
-    background-color: blue;
+    background-color: var(--color-button);
 }
 
 .my-button:hover {
@@ -38,5 +38,5 @@
 
 .mat-list-item {
     font-family: "Bubblegum Sans";
-    color: white;
+    color: var(--font-color);
 }

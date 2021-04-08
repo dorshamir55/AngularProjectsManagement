@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "heroku-postbuild": "ng build --prod && npm install http-server-spa -g",
+    "heroku-postbuild": "ng build --prod && http-server-spa -g",
     "start": "http-server-spa dist/angular-projects-management index.html $PORT",
     "build": "ng build",
     "test": "ng test",

@@ -1,4 +1,5 @@
 export const environment = {
   production: true,
-  baseUrl: 'https://spring-projects-management.herokuapp.com/'
+  baseUrl: 'http://localhost:8080'
+  // baseUrl: 'https://spring-projects-management.herokuapp.com/'
 };

@@ -1,21 +1,3 @@
-/* .theme-dark {
-    --color-primary: #0B0C10;
-    --color-secondary: #0C0032;
-    --color-background: #190061;
-    --color-button-hover: #190061;
-    --color-button: blue;
-    --font-color: white;
-}
-
-.theme-light {
-    --color-primary: lightblue;
-    --color-secondary: lightblue;
-    --color-background: white;
-    --color-butto-hover: slateblue;
-    --color-button: blue;
-    --font-color: black;
-} */
-
 .app-container {
     background-color: var(--color-background);
 }

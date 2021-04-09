@@ -1,6 +1,6 @@
 # AngularProjectsManagement
 
-Developed using Angular in VScode.
+Developed using Angular in VSCode.
 
 Projects management app.
 

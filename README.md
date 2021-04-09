@@ -10,10 +10,10 @@ Included:
 
 ## Screenshots:
 ![Dark mode](https://github.com/Dorshamir55/AngularProjectsManagement/raw/master/ScreenShots/Dark_mode.jpg)
-![Light mode](https://github.com/Dorshamir55/AngularProjectsManagement/tree/master/ScreenShots/Light_mode.jpg)
-![Create project](https://github.com/Dorshamir55/AngularProjectsManagement/tree/master/ScreenShots/Create_project.jpg)
-![Edit project](https://github.com/Dorshamir55/AngularProjectsManagement/tree/master/ScreenShots/Edit_project.jpg)
-![Delete project](https://github.com/Dorshamir55/AngularProjectsManagement/tree/master/ScreenShots/Delete_project.jpg)
-![Create task](https://github.com/Dorshamir55/AngularProjectsManagement/tree/master/ScreenShots/Create_task.jpg)
-![Edit task](https://github.com/Dorshamir55/AngularProjectsManagement/tree/master/ScreenShots/Edit_task.jpg)
-![Delete task](https://github.com/Dorshamir55/AngularProjectsManagement/tree/master/ScreenShots/Delete_task.jpg)
+![Light mode](https://github.com/Dorshamir55/AngularProjectsManagement/raw/master/ScreenShots/Light_mode.jpg)
+![Create project](https://github.com/Dorshamir55/AngularProjectsManagement/raw/master/ScreenShots/Create_project.jpg)
+![Edit project](https://github.com/Dorshamir55/AngularProjectsManagement/raw/master/ScreenShots/Edit_project.jpg)
+![Delete project](https://github.com/Dorshamir55/AngularProjectsManagement/raw/master/ScreenShots/Delete_project.jpg)
+![Create task](https://github.com/Dorshamir55/AngularProjectsManagement/raw/master/ScreenShots/Create_task.jpg)
+![Edit task](https://github.com/Dorshamir55/AngularProjectsManagement/raw/master/ScreenShots/Edit_task.jpg)
+![Delete task](https://github.com/Dorshamir55/AngularProjectsManagement/raw/master/ScreenShots/Delete_task.jpg)

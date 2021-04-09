@@ -10,7 +10,7 @@ You can create, edit and delete projects and tasks and mark that they have been 
 
 Included: Redux, Material, PostgreSQL, Heroku
 
-# Link to Heroku:
+## Link to Heroku:
 https://angular-projects-management.herokuapp.com
 
 ## Screenshots:

@@ -3,10 +3,15 @@
 Developed using Angular in VScode.
 
 Projects management app.
+
 The app allows manage your projects and tasks.
+
 You can create, edit and delete projects and tasks and mark that they have been done.
 
-Included: 
+Included: Redux, Material, PostgreSQL, Heroku
+
+# Link to Heroku:
+https://angular-projects-management.herokuapp.com
 
 ## Screenshots:
 ![Dark mode](https://github.com/Dorshamir55/AngularProjectsManagement/raw/master/ScreenShots/Dark_mode.jpg)

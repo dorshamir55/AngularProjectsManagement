@@ -9,7 +9,7 @@ You can create, edit and delete projects and tasks and mark that they have been 
 Included: 
 
 ## Screenshots:
-![Dark mode](http://github.com/dorshamir55/AngularProjectsManagement/tree/master/ScreenShots/Dark_mode.jpeg)
+![Dark mode](https://github.com/Dorshamir55/AngularProjectsManagement/tree/master/ScreenShots/Dark_mode.jpg)
 ![Light mode](https://github.com/Dorshamir55/AngularProjectsManagement/tree/master/ScreenShots/Light_mode.jpg)
 ![Create project](https://github.com/Dorshamir55/AngularProjectsManagement/tree/master/ScreenShots/Create_project.jpg)
 ![Edit project](https://github.com/Dorshamir55/AngularProjectsManagement/tree/master/ScreenShots/Edit_project.jpg)
